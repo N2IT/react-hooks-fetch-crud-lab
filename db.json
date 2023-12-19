@@ -1,17 +1,6 @@
 {
   "questions": [
     {
-      "prompt": "where should we go",
-      "answers": [
-        "home",
-        "to get food",
-        "library",
-        "bar"
-      ],
-      "correctIndex": 0,
-      "id": 8
-    },
-    {
       "prompt": "are you tired",
       "answers": [
         "test",
@@ -19,8 +8,30 @@
         "jal;asn",
         "jdna;lsdn"
       ],
-      "correctIndex": 0,
+      "correctIndex": "1",
       "id": 9
+    },
+    {
+      "prompt": "is santa coming this year",
+      "answers": [
+        "yes",
+        "no",
+        "maybe",
+        "outlook not so good"
+      ],
+      "correctIndex": "3",
+      "id": 10
+    },
+    {
+      "prompt": "how are you?",
+      "answers": [
+        "good",
+        "bad",
+        "meh",
+        "so so"
+      ],
+      "correctIndex": "2",
+      "id": 11
     }
   ]
 }

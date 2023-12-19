@@ -15,7 +15,7 @@ function QuestionList() {
     const updatedQuestions = questions.filter((question) => question.id !== deletedItem.id);
     setQuestions(updatedQuestions)
   }
-  
+
   return (
     <section>
       <h1>Quiz Questions</h1>

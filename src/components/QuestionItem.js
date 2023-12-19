@@ -1,6 +1,6 @@
 import React from "react";
 
-function QuestionItem({ question, onQuestionDelete, updateCorrectAnswer }) {
+function QuestionItem({ question, onQuestionDelete }) {
   const { id, prompt, answers, correctIndex } = question;
 
 

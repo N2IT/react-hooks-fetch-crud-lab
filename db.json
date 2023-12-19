@@ -1,17 +1,6 @@
 {
   "questions": [
     {
-      "prompt": "are you tired",
-      "answers": [
-        "test",
-        "testiong",
-        "jal;asn",
-        "jdna;lsdn"
-      ],
-      "correctIndex": "1",
-      "id": 9
-    },
-    {
       "prompt": "is santa coming this year",
       "answers": [
         "yes",
@@ -19,7 +8,7 @@
         "maybe",
         "outlook not so good"
       ],
-      "correctIndex": "3",
+      "correctIndex": "0",
       "id": 10
     },
     {
@@ -30,7 +19,7 @@
         "meh",
         "so so"
       ],
-      "correctIndex": "2",
+      "correctIndex": "3",
       "id": 11
     }
   ]

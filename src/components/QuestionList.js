@@ -10,13 +10,18 @@ function QuestionList() {
       setQuestions(questions)
     })
   }, [])
+
+  function onQuestionDelete(deletedItem) {
+    const updatedQuestions = questions.filter((question) => question.id !== deletedItem.id);
+    setQuestions(updatedQuestions)
+  }
   
   return (
     <section>
       <h1>Quiz Questions</h1>
       <ul>
         {questions.map((item) => (
-          <QuestionItem key={item.id} question={item} />
+          <QuestionItem key={item.id} question={item} onQuestionDelete={onQuestionDelete} />
         ))}
       </ul>
     </section>

@@ -3,7 +3,6 @@ import QuestionItem from './QuestionItem'
 
 function QuestionList() {
   const [ questions, setQuestions ] = useState([])
-  console.log(questions)
   useEffect(() => {
     return fetch("http://localhost:4000/questions")
     .then((res) => res.json())

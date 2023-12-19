@@ -65,6 +65,39 @@
         "controlled"
       ],
       "correctIndex": 1
+    },
+    {
+      "prompt": "what time is it",
+      "answers": [
+        "game time",
+        "to eat",
+        "to play",
+        "to read"
+      ],
+      "correctIndex": 0,
+      "id": 7
+    },
+    {
+      "prompt": "where should we go",
+      "answers": [
+        "home",
+        "to get food",
+        "library",
+        "bar"
+      ],
+      "correctIndex": 0,
+      "id": 8
+    },
+    {
+      "prompt": "are you tired",
+      "answers": [
+        "test",
+        "testiong",
+        "jal;asn",
+        "jdna;lsdn"
+      ],
+      "correctIndex": 0,
+      "id": 9
     }
   ]
 }
